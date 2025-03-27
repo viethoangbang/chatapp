@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./tainguyen/styles/signup.css">
+</head>
+<body>
+    <div class="container_fix">
+        <form method="post">
+            <label for="user_name">Username</label>
+            <input type="text" onchange="showUsername()" name="user_name" id="user_name" placeholder="Nhập username.." required>
+            <label for="user_email">Email</label>
+            <input type="text" name="user_email" id="user_email" disabled placeholder="Tự động nhập tài khoản">
+            <label for="user_pass">Password</label>
+            <input type="text" id="user_pass" name="user_pass" disabled placeholder="Tự động nhập mật khẩu">
+            <button type="submit" id="user_login">Register</button>
+            <a href="./login.html">Đã có tài khoản?</a>
+        </form>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
